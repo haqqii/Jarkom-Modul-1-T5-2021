@@ -6,7 +6,7 @@ Oleh :
 
 ---
 
-## Soal no 1
+## Nomer 1
 Sebutkan webserver yang digunakan pada `ichimarumaru.tech` 
 
 Solusi
@@ -17,3 +17,14 @@ http.host contains "ichimarumaru.tech"
 ```
 
 Maka akan muncul paket yang mengandung host `ichimarumaru.tech`
+
+<img src="https://i.postimg.cc/wvyS55Wb/Screenshot-592.png">
+
+Jadi webserver yang digunakan adalah **nginx/1.14.0**
+
+
+
+## Nomer 2
+Temukan paket dari web-web yang menggunakan basic authentication method!
+
+<img src="https://i.postimg.cc/D0J97QkK/Screenshot-593.png">
