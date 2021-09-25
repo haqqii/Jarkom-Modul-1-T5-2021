@@ -1,6 +1,6 @@
 # Jarkom-Modul-1-T5-2021
 Oleh :
-1. Shavica
+1. Shavica Ihya Q A L    (05311940000031)
 2. Gerry Putra Fresnando (05311940000031)
 3. Mohammad Ibadul Haqqi (05311940000037)
 
@@ -132,4 +132,43 @@ ftp.request.command == STOR
 
 ![Screenshot (608)](https://user-images.githubusercontent.com/73151831/134770896-fa4f3612-2e64-4c74-9a5d-a7d6d61646b0.png)
 
+## Nomer 9
+Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 
+Solusi
+
+
+## Nomer 10
+Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
+
+Solusi
+
+
+## Nomer 11
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+Solusi
+
+
+## Nomer 12
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+Solusi
+
+
+## Nomer 13
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Solusi
+
+
+## Nomer 14
+Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
+Solusi
+
+
+## Nomer 15
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Solusi
