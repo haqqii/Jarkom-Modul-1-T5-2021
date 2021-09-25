@@ -170,7 +170,13 @@ Solusi
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 Solusi
+Gunakan filter :
 
+```
+dst port 443
+```
+
+![15](https://user-images.githubusercontent.com/73151522/134772889-e23909fc-167b-4600-b077-822fdfef5f07.jpg)
 ![13](https://user-images.githubusercontent.com/73151522/134772937-59c0e74a-0384-413c-ab62-48cc8b2b2c85.jpg)
 
 
@@ -199,13 +205,6 @@ hasil perolehan paket kemenag.go.id
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Solusi
-Gunakan filter :
-
-```
-dst port 443
-```
-
-![15](https://user-images.githubusercontent.com/73151522/134772889-e23909fc-167b-4600-b077-822fdfef5f07.jpg)
 
 Gunakan filter :
 
