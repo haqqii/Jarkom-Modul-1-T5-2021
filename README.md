@@ -144,6 +144,10 @@ ftp-data contains "secret.zip"
 
 ![9](https://user-images.githubusercontent.com/73151522/134773573-42c607ba-93a7-42fe-84b8-c1587fe4ef58.jpg)
 
+lalu di tcp stream kan dan rubah ASCII menjadi arrow, lalu save as maka akan menjadi file zip
+dan setelah dibuka file zip nya, filenya masih terkunci
+jawaban tersebut menjadi soal di `no. 10`
+
 
 ## Nomer 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
@@ -154,6 +158,15 @@ Gunakan filter :
 ```
 ftp-data contains "history.txt"
 ```
+
+setelah dibuka dia mengarahkan kita ke file `bukanapapa.txt`
+lalu kita filter lagi dengan :
+
+```
+ftp-data constains "bukanapaapa.txt"
+```
+
+lalu didapatkan password dari filter tersebut
 
 Hasil perolehan unzip file
 
