@@ -136,6 +136,11 @@ ftp.request.command == STOR
 Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 
 Solusi
+Gunakan filter :
+
+```
+ftp-data contains "secret.zip"
+```
 
 ![9](https://user-images.githubusercontent.com/73151522/134773573-42c607ba-93a7-42fe-84b8-c1587fe4ef58.jpg)
 
@@ -144,6 +149,11 @@ Solusi
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 
 Solusi
+Gunakan filter :
+
+```
+ftp-data contains "history.txt"
+```
 
 Hasil perolehan unzip file
 
@@ -221,10 +231,10 @@ Solusi
 Gunakan filter :
 
 ```
-src host 192.168.43.161
+ip src 192.168.43.161
 ```
 
-![15-1](https://user-images.githubusercontent.com/73151522/134772896-d1f600d8-af0b-4d02-937d-d6c5d4f99073.png)
+![image](https://user-images.githubusercontent.com/73151831/134774319-087488ed-1ae3-44d9-818c-bff9177af0f2.png)
 
 Tampilan paket dengan IP Address 192.168.43.161
 
