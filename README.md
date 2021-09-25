@@ -145,6 +145,8 @@ Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server te
 
 Solusi
 
+Hasil perolehan unzip file
+
 ![10](https://user-images.githubusercontent.com/73151522/134773566-ad16a654-20ce-4171-8763-ad652d5acb70.jpg)
 
 
@@ -152,8 +154,15 @@ Solusi
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
 Solusi
+Gunakan filter :
+
+```
+src port 80
+```
 
 ![11](https://user-images.githubusercontent.com/73151522/134773554-3540673b-371a-46fc-931f-a93f0c80e8d3.png)
+
+Tampilan paket port 80
 
 ![11-1](https://user-images.githubusercontent.com/73151522/134773557-7d1e5377-9a5f-41f0-b2ed-c49dfe5dbe24.png)
 
@@ -162,6 +171,11 @@ Solusi
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 Solusi
+Gunakan filter :
+
+```
+src port 21
+```
 
 ![12](https://user-images.githubusercontent.com/73151522/134773544-fb1ff9bb-e588-49f0-9d98-68c1db7c74f1.jpg)
 
@@ -177,6 +191,9 @@ dst port 443
 ```
 
 ![15](https://user-images.githubusercontent.com/73151522/134772889-e23909fc-167b-4600-b077-822fdfef5f07.jpg)
+
+Tampilan paket port 443
+
 ![13](https://user-images.githubusercontent.com/73151522/134772937-59c0e74a-0384-413c-ab62-48cc8b2b2c85.jpg)
 
 
@@ -192,20 +209,15 @@ dst host kemenag.go.id
 
 ![14](https://user-images.githubusercontent.com/73151522/134772919-2cc9d205-360d-4182-a253-a32a1633dc45.png)
 
-
-```
-hasil perolehan paket kemenag.go.id
-```
+Hasil perolehan tampilan paket kemenag.go.id
 
 ![14-1](https://user-images.githubusercontent.com/73151522/134772922-2e41c632-983c-4f98-9463-22f646aecf90.png)
-
 
 
 ## Nomer 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Solusi
-
 Gunakan filter :
 
 ```
@@ -213,5 +225,7 @@ src host 192.168.43.161
 ```
 
 ![15-1](https://user-images.githubusercontent.com/73151522/134772896-d1f600d8-af0b-4d02-937d-d6c5d4f99073.png)
+
+Tampilan paket dengan IP Address 192.168.43.161
 
 ![15-2](https://user-images.githubusercontent.com/73151522/134772900-71f385ee-d43e-4da5-9896-b9c40678f10e.png)
