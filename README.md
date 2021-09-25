@@ -110,7 +110,7 @@ ftp-data contains "Real.pdf"
 
 Setelah itu follow TCP stream dan Show data as Raw
 
-![Screenshot (595)](https://user-images.githubusercontent.com/73151831/134770723-aa2ef46f-66b2-45a0-beae-6ba5e913f79b.png)
+![Screenshot (594)](https://user-images.githubusercontent.com/73151831/134771011-339c5115-663b-4ef2-b3a8-5dd3301448c6.png)
 
 Lalu disimpan dengan nama Real.zip dan extract
 
