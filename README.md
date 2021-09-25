@@ -159,16 +159,22 @@ Gunakan filter :
 ftp-data contains "history.txt"
 ```
 
+![messageImage_1632146879249](https://user-images.githubusercontent.com/61973814/134774587-36b3fb62-183d-4b4c-b6eb-99ed29f996d8.jpg)
+
 setelah dibuka dia mengarahkan kita ke file `bukanapapa.txt`
-lalu kita filter lagi dengan :
+lalu kita filter lagi dengan:
 
 ```
 ftp-data constains "bukanapaapa.txt"
 ```
 
+![messageImage_1632146923494](https://user-images.githubusercontent.com/61973814/134774644-d3ae6901-281e-4209-a4de-6f99e7ecdb4b.jpg)
+
+
 lalu didapatkan password dari filter tersebut
 
-Hasil perolehan unzip file
+
+Dan Hasil perolehan unzip file :
 
 ![10](https://user-images.githubusercontent.com/73151522/134773566-ad16a654-20ce-4171-8763-ad652d5acb70.jpg)
 
