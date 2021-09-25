@@ -137,11 +137,15 @@ Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Sa
 
 Solusi
 
+![9](https://user-images.githubusercontent.com/73151522/134773573-42c607ba-93a7-42fe-84b8-c1587fe4ef58.jpg)
+
 
 ## Nomer 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 
 Solusi
+
+![10](https://user-images.githubusercontent.com/73151522/134773566-ad16a654-20ce-4171-8763-ad652d5acb70.jpg)
 
 
 ## Nomer 11
@@ -149,11 +153,17 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
 Solusi
 
+![11](https://user-images.githubusercontent.com/73151522/134773554-3540673b-371a-46fc-931f-a93f0c80e8d3.png)
+
+![11-1](https://user-images.githubusercontent.com/73151522/134773557-7d1e5377-9a5f-41f0-b2ed-c49dfe5dbe24.png)
+
 
 ## Nomer 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 Solusi
+
+![12](https://user-images.githubusercontent.com/73151522/134773544-fb1ff9bb-e588-49f0-9d98-68c1db7c74f1.jpg)
 
 
 ## Nomer 13
@@ -161,14 +171,27 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 Solusi
 
+![13](https://user-images.githubusercontent.com/73151522/134772937-59c0e74a-0384-413c-ab62-48cc8b2b2c85.jpg)
+
 
 ## Nomer 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 Solusi
 
+![14](https://user-images.githubusercontent.com/73151522/134772919-2cc9d205-360d-4182-a253-a32a1633dc45.png)
+
+![14-1](https://user-images.githubusercontent.com/73151522/134772922-2e41c632-983c-4f98-9463-22f646aecf90.png)
+
+
 
 ## Nomer 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Solusi
+
+![15](https://user-images.githubusercontent.com/73151522/134772889-e23909fc-167b-4600-b077-822fdfef5f07.jpg)
+
+![15-1](https://user-images.githubusercontent.com/73151522/134772896-d1f600d8-af0b-4d02-937d-d6c5d4f99073.png)
+
+![15-2](https://user-images.githubusercontent.com/73151522/134772900-71f385ee-d43e-4da5-9896-b9c40678f10e.png)
