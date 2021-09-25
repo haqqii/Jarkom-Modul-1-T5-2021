@@ -1,6 +1,6 @@
 # Jarkom-Modul-1-T5-2021
 Oleh :
-1. Shavica Ihya Q A L    (05311940000031)
+1. Shavica Ihya Q A L    (05311940000013)
 2. Gerry Putra Fresnando (05311940000031)
 3. Mohammad Ibadul Haqqi (05311940000037)
 
@@ -189,8 +189,19 @@ Solusi
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Solusi
+Gunakan filter :
+
+```
+dst port 443
+```
 
 ![15](https://user-images.githubusercontent.com/73151522/134772889-e23909fc-167b-4600-b077-822fdfef5f07.jpg)
+
+Gunakan filter :
+
+```
+src host 192.168.43.161
+```
 
 ![15-1](https://user-images.githubusercontent.com/73151522/134772896-d1f600d8-af0b-4d02-937d-d6c5d4f99073.png)
 
