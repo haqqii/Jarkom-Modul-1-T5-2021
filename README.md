@@ -82,4 +82,54 @@ Setelah itu login ke `portal.ichimarumaru.tech` dan menjawab soal didalamnya
 
 ![messageImage_1632145910524](https://user-images.githubusercontent.com/73151831/134770241-f6ffe9f7-0ed6-48ae-8fab-debe74c7ed39.jpg)
 
+## Nomer 6
+Cari username dan password ketika melakukan login ke FTP Server!
+
+Solusi
+Gunakan filter :
+
+```
+ftp.request.command == PASS || ftp.request.command == USER
+```
+
+![Screenshot (610)](https://user-images.githubusercontent.com/73151831/134770574-6e7e0f90-b805-421b-83a2-c3a5373adfab.png)
+
+Maka akan didapatkan username `secretuser` dan password `aku.pengen.pw.aja`
+
+## Nomer 7
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+Solusi
+Gunakan filter :
+
+```
+ftp-data contains "Real.pdf"
+```
+
+![image](https://user-images.githubusercontent.com/73151831/134770691-5bf302f5-f8c0-4658-bad2-6637006e2a81.png)
+
+Setelah itu follow TCP stream dan Show data as Raw
+
+![Screenshot (595)](https://user-images.githubusercontent.com/73151831/134770723-aa2ef46f-66b2-45a0-beae-6ba5e913f79b.png)
+
+Lalu disimpan dengan nama Real.zip dan extract
+
+![Screenshot (595)](https://user-images.githubusercontent.com/73151831/134770805-aea26b37-23ad-4962-9625-8ad1d5edb50a.png)
+
+Buka file Real.pdf
+
+![Screenshot (596)](https://user-images.githubusercontent.com/73151831/134770856-cf25239c-0ba1-4246-93e4-8b2e8e98f473.png)
+
+## Nomer 8
+Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+
+Solusi
+Gunakan filter :
+
+```
+ftp.request.command == STOR
+```
+
+![Screenshot (608)](https://user-images.githubusercontent.com/73151831/134770896-fa4f3612-2e64-4c74-9a5d-a7d6d61646b0.png)
+
 
