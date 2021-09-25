@@ -178,8 +178,18 @@ Solusi
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 Solusi
+Gunakan filter :
+
+```
+dst host kemenag.go.id
+```
 
 ![14](https://user-images.githubusercontent.com/73151522/134772919-2cc9d205-360d-4182-a253-a32a1633dc45.png)
+
+
+```
+hasil perolehan paket kemenag.go.id
+```
 
 ![14-1](https://user-images.githubusercontent.com/73151522/134772922-2e41c632-983c-4f98-9463-22f646aecf90.png)
 
